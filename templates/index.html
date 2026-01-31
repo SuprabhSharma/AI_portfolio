@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Suprabh Sharma | AI & ML Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root{
+            --bg:#0b1120;
+            --card:#020617;
+            --accent:#38bdf8;
+            --accent2:#9333ea;
+            --text:#e5e7eb;
+            --muted:#9ca3af;
+        }
+
+        *{box-sizing:border-box}
+
+        body{
+            margin:0;
+            font-family:'Poppins',sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            scroll-behavior:smooth;
+        }
+
+        /* HERO */
+        header{
+            min-height:100vh;
+            background:
+                linear-gradient(rgba(11,17,32,0.8),rgba(11,17,32,0.9)),
+                url("https://images.unsplash.com/photo-1555949963-aa79dcee981c");
+            background-size:cover;
+            background-position:center;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            text-align:center;
+            padding:40px;
+        }
+
+        header h1{
+            font-size:52px;
+            margin:0;
+        }
+
+        header span{
+            color:var(--accent);
+        }
+
+        header p{
+            margin:15px 0 30px;
+            font-size:18px;
+            color:#c7d2fe;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:12px 28px;
+            background:linear-gradient(90deg,var(--accent),var(--accent2));
+            color:white;
+            border-radius:30px;
+            text-decoration:none;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            transform:scale(1.05);
+            box-shadow:0 0 20px rgba(56,189,248,0.6);
+        }
+
+        section{
+            padding:70px 8%;
+        }
+
+        h2{
+            font-size:32px;
+            margin-bottom:40px;
+            color:var(--accent);
+            text-align:center;
+        }
+
+        /* CARDS */
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:var(--card);
+            padding:30px;
+            border-radius:18px;
+            transition:0.4s;
+            box-shadow:0 0 20px rgba(0,0,0,0.4);
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+            box-shadow:0 0 30px rgba(56,189,248,0.4);
+        }
+
+        .card img{
+            width:60px;
+            margin-bottom:15px;
+        }
+
+        ul{
+            padding-left:18px;
+        }
+
+        li{
+            margin-bottom:10px;
+        }
+
+        .meta{
+            font-size:14px;
+            color:var(--muted);
+            margin-bottom:10px;
+        }
+
+        /* PROJECT IMAGE */
+        .project-img{
+            width:100%;
+            border-radius:12px;
+            margin-bottom:15px;
+        }
+
+        /* CONTACT */
+        .contact{
+            text-align:center;
+        }
+
+        .contact a{
+            color:var(--accent);
+            text-decoration:none;
+            font-weight:500;
+        }
+
+        footer{
+            text-align:center;
+            padding:25px;
+            background:#020617;
+            color:var(--muted);
+            font-size:14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header>
+    <div>
+        <h1>Suprabh <span>Sharma</span></h1>
+        <p>Aspiring AI & Machine Learning Engineer | Data Science Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</header>
+
+<!-- ABOUT -->
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a Computer Science & Engineering undergraduate with strong hands-on
+            experience in Data Science, Machine Learning, and Deep Learning.
+            I enjoy building end-to-end ML pipelines, performing EDA,
+            and developing intelligent systems using real-world data.
+        </p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+    <h2>Technical Skills</h2>
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/combo-chart.png"/>
+            <h3>Data Science</h3>
+            <ul>
+                <li>Data Analysis & EDA</li>
+                <li>Feature Engineering</li>
+                <li>Feature Selection</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png"/>
+            <h3>Machine Learning</h3>
+            <ul>
+                <li>Classification & Regression</li>
+                <li>Model Evaluation</li>
+                <li>SVM, KNN, Naive Bayes</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/source-code.png"/>
+            <h3>Programming</h3>
+            <ul>
+                <li>Python</li>
+                <li>Pandas, NumPy</li>
+                <li>Matplotlib, Seaborn</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/neural-network.png"/>
+            <h3>Deep Learning</h3>
+            <ul>
+                <li>TensorFlow & Keras</li>
+                <li>CNN Architectures</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/database.png"/>
+            <h3>Databases</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>PostgreSQL</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img src="https://img.icons8.com/fluency/96/toolbox.png"/>
+            <h3>Tools</h3>
+            <ul>
+                <li>Git & GitHub</li>
+                <li>VS Code, Jupyter</li>
+                <li>Streamlit, FastAPI</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+
+        <div class="card">
+            <img class="project-img" src="https://images.unsplash.com/photo-1580281658629-00b9a4d8b8b4">
+            <h3>Heart Stroke Disease Prediction</h3>
+            <div class="meta">Machine Learning Project</div>
+            <ul>
+                <li>End-to-end ML pipeline</li>
+                <li>86% accuracy using SVM</li>
+                <li>0.84 F1-score</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img class="project-img" src="https://images.unsplash.com/photo-1581090700227-1e37b190418e">
+            <h3>Medical Image Classification</h3>
+            <div class="meta">Deep Learning (CNN)</div>
+            <ul>
+                <li>CNN-based architecture</li>
+                <li>~85% validation accuracy</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <img class="project-img" src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28">
+            <h3>AI Health Recommendation System</h3>
+            <div class="meta">Ongoing AI Project</div>
+            <ul>
+                <li>ML + Rule-based AI logic</li>
+                <li>~88% decision accuracy</li>
+            </ul>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+    <h2>Contact</h2>
+    <div class="card contact">
+        <p>Email: sharmasuprabh2608@gmail.com</p>
+        <p>Phone: +91 9756455554</p>
+        <p>
+            <a href="https://linkedin.com/in/suprabhsharma" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/SuprabhSharma" target="_blank">GitHub</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Suprabh Sharma | AI & Machine Learning Portfolio
+</footer>
+
+</body>
+</html>
